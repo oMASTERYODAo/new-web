@@ -1,0 +1,336 @@
+
+.name {
+	width:100%;
+	height: 400px;
+	background-color: black;
+	text-align: center;
+	font-size:200px;
+	color:white;
+}
+
+.nav-1{
+width:100%;
+	height: 200px;
+	background-color: black;
+	position:relative;
+	color:white;
+	font-size:50px;
+}
+
+
+.nav-2{
+width:100%;
+	height: 200px;
+	background-color: black;
+	font-size:50px;
+	text-align: center;
+	color:white;
+}
+
+.nav-3{
+width:100%;
+	height: 200px;
+	background-color: red;
+}
+.row-2-box-1{
+width:100%;
+	height: 400px;
+	background-color: pink;
+}
+.row-2-box-2{
+width:100%;
+	height: 400px;
+	background-color:blue;
+}
+.row-2-box-3{
+width:100%;
+	height: 400px;
+	background-color: gold;
+}
+.row-3-box-1{
+width:100%;
+	height: 400px;
+	background-color: silver;
+}
+.row-3-box-2{
+width:100%;
+	height: 400px;
+	background-color: orange;
+}
+.row-3-box-3{
+width:100%;
+	height: 400px;
+	background-color: red;
+}
+@media only screen and (min-width: 1000px) {
+.name {
+	width:90%;
+	height: 400px;
+	background-color: black;
+	box-sizing: border-box;
+margin-left:5%;
+color:white;
+}
+.nav{
+	display:flex;
+	justify-content:space-around;
+	margin-top:5%;
+	box-sizing: border-box;
+}
+
+.nav-1{
+width:30%;
+	height: 200px;
+	background-color:black;
+	color:white;
+
+}
+
+.nav-2{
+width:30%;
+	background-color:black;
+	color:white;
+}
+
+.nav-3{
+width:30%;
+	height: 200px;
+	background-color: black;
+
+}
+.row-2{
+display:flex;
+justify-content: 
+space-around;
+box-sizing: border-box;
+margin-top:5%;
+}
+
+.row-2-box-1{
+width:30%;
+	height: 600px;
+	background-color: black;
+	display: flex;
+	background-image:url('../images/gate.png');
+	background-repeat: no-repeat;
+background-position:center;
+	}
+.row-2-box-1-int{
+	height:5%;
+	width:80%;
+	background-color:black;
+	justify-content:center;
+	margin:10%;
+	align-self: flex-end;
+
+}
+.row-2-box-2-int{
+	height:5%;
+	width:80%;
+	background-color:black;
+	justify-content:center;
+	margin:10%;
+	align-self: flex-end;
+
+}
+.row-2-box-3-int{
+	height:5%;
+	width:80%;
+	background-color:black;
+	justify-content:center;
+	margin:10%;
+	align-self: flex-end;
+}
+
+.row-2-box-2{
+width:30%;
+	height: 600px;
+	background-color: black;
+	justify-content: flex-end;
+	display:flex;
+	background-image:url('../images/gate 2-3.png');
+	background-repeat: no-repeat;
+background-position:center;
+}
+
+.row-2-box-3{
+width:30%;
+	height: 600px;
+	background-color: black;
+	display:flex;
+	background-image:url('../images/gun 2.png');
+	background-repeat: no-repeat;
+background-position:center;
+}
+
+.row-3{
+display:flex;
+justify-content: 
+space-around;
+box-sizing: border-box;
+margin-top:5%;
+}
+
+.row-3-box-1{
+width:30%;
+	height: 600px;
+	background-color: black;
+	display: flex;
+	background-image:url('../images/lantern.png');
+	background-repeat: no-repeat;
+background-position:center;
+}
+
+.row-3-box-2{
+width:30%;
+	height: 600px;
+	background-color: black;
+	justify-content: flex-end;
+	display:flex;
+	background-image:url('../images/shrine 1.png');
+	background-repeat: no-repeat;
+background-position:center;
+}
+
+.row-3-box-3{
+width:30%;
+	height: 600px;
+	background-color: black;
+	display:flex;
+	background-image:url('../images/house.png');
+	background-repeat: no-repeat;
+background-position:center;
+}
+.row-3-box-1-int{
+	height:5%;
+	width:80%;
+	background-color:black;
+	justify-content:center;
+	margin:10%;
+	align-self: flex-end;
+}
+.row-3-box-2-int{
+	height:5%;
+	width:80%;
+	background-color:black;
+	justify-content:center;
+	margin:10%;
+	align-self: flex-end;
+
+}
+.row-3-box-3-int{
+	height:5%;
+	width:80%;
+	background-color:black;
+	justify-content:center;
+	margin:10%;
+	align-self: flex-end;
+}
+
+
+.row-4{
+display:flex;
+justify-content: 
+space-around;
+box-sizing: border-box;
+margin-top:5%;
+}
+
+.row-4-box-1{
+width:30%;
+	height: 600px;
+	background-color: black;
+	display: flex;
+	background-image:url('../images/full-1.png');
+	background-repeat: no-repeat;
+background-position:center;
+}
+
+.row-4-box-2{
+width:30%;
+	height: 600px;
+	background-color: black;
+	justify-content: flex-end;
+	display:flex;
+	background-image:url('../images/vi.png');
+	background-repeat: no-repeat;
+background-position:center;
+}
+
+.row-4-box-3{
+width:30%;
+	height: 600px;
+	background-color: black;
+	display:flex;
+	background-image:url('../images/stone.png');
+	background-repeat: no-repeat;
+background-position:center;
+}
+
+.nav-3{
+	font-size:50px;
+}
+
+
+.nav{
+	display:flex;
+	justify-content:space-around;
+	margin-top:5%;
+	box-sizing: border-box;
+}
+
+
+.link-1 {
+	text-align: center;
+}
+.name2{
+	width:90%;
+	height:200px;
+	background-color:black;
+	margin-left:5%;
+	color:white;
+
+}
+
+.name2-text{
+font-size:100px;
+text-align:center;
+}
+
+
+
+
+.row-2-box-2p{
+width:30%;
+	height: 600px;
+	background-color: black;
+	justify-content: flex-end;
+	display:flex;
+	background-repeat: no-repeat;
+background-position:center;
+color:white;
+background-image:url('../images/text 1.png');
+}
+.row-2-box-3p{
+width:30%;
+	height: 600px;
+	background-color: black;
+	justify-content: flex-end;
+	display:flex;
+	background-repeat: no-repeat;
+background-position:center;
+color:white;
+background-image:url('../images/text 2.png');
+}
+
+
+.bottom {
+	display: block;
+	width: 90%;
+	height:1000%;
+	text-align:center; 
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom:50px;
+
+}
